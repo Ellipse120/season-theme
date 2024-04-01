@@ -1,0 +1,25 @@
+{
+  "name": "season-theme",
+  "displayName": "season-theme",
+  "description": "In different senson, different theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --watch src src/index.js"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Season Color",
+        "uiTheme": "vs",
+        "path": "./themes/Season Color-color-theme.json"
+      }
+    ]
+  }
+}
